@@ -463,3 +463,117 @@ Connection closed
 
 D:\Program Files\h2\bin>
 
+(c) Microsoft Corporation. All rights reserved.
+
+D:\downloads\stsProjects\TestAppCreate>git add .
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" add .
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" init .
+Reinitialized existing Git repository in D:/downloads/stsProjects/TestAppCreate/.git/
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" add .
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" log
+fatal: your current branch 'main' does not have any commits yet
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" config --global user.email "anup.punekar@gmail.com"
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" config --global user.name "anuppunekar"            
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" commit -m "Created"
+[main (root-commit) 612cdd2] Created
+ 24 files changed, 913 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.apt.core.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 TestAppCreate.txt
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/net/my/maven/App.java
+ create mode 100644 src/main/java/net/my/maven/TestHibernateApp/app/App.java
+ create mode 100644 src/main/java/net/my/maven/TestHibernateApp/domain/Test.java
+ create mode 100644 src/main/java/net/my/maven/TestHibernateApp/domain/User.java
+ create mode 100644 src/main/resources/hibernate.properties
+ create mode 100644 src/main/resources/mysql-connector-java-5.1.15.jar
+ create mode 100644 src/test/java/net/my/maven/AppTest.java
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/net.my.maven/TestAppCreate/pom.properties
+ create mode 100644 target/classes/META-INF/maven/net.my.maven/TestAppCreate/pom.xml
+ create mode 100644 target/classes/hibernate.properties
+ create mode 100644 target/classes/mysql-connector-java-5.1.15.jar
+ create mode 100644 target/classes/net/my/maven/App.class
+ create mode 100644 target/classes/net/my/maven/TestHibernateApp/app/App.class
+ create mode 100644 target/classes/net/my/maven/TestHibernateApp/domain/Test.class
+ create mode 100644 target/classes/net/my/maven/TestHibernateApp/domain/User.class
+ create mode 100644 target/test-classes/net/my/maven/AppTest.class
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" log    
+commit 612cdd24258c165c28c584315e4106ead7d94af7
+Author: anuppunekar <anup.punekar@gmail.com>
+Date:   Thu Dec 25 19:24:41 2025 +0530
+
+    Created
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" remote
+origin
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" branch -M main
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" remote        
+origin
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" push -u origin main
+Username for 'https://github.com': anuppunekar
+Password for 'https://anuppunekar@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/anuppunekar/TestAppCreate/'
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" push -u origin main
+Username for 'https://github.com': anuppunekar
+Password for 'https://anuppunekar@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/anuppunekar/TestAppCreate/'
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" push -u origin main
+Username for 'https://github.com': anuppunekar
+Password for 'https://anuppunekar@github.com': 
+remote: Permission to anuppunekar/TestAppCreate.git denied to anuppunekar.
+fatal: unable to access 'https://github.com/anuppunekar/TestAppCreate/': The requested URL returned error: 403
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" push -u origin main
+Username for 'https://github.com': anup.punekar@gmail.com
+Password for 'https://anup.punekar@gmail.com@github.com': 
+remote: Permission to anuppunekar/TestAppCreate.git denied to anuppunekar.
+fatal: unable to access 'https://github.com/anuppunekar/TestAppCreate/': The requested URL returned error: 403
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" push -u origin main
+Username for 'https://github.com': anuppunekar
+Password for 'https://anuppunekar@github.com': 
+remote: Permission to anuppunekar/TestAppCreate.git denied to anuppunekar.
+fatal: unable to access 'https://github.com/anuppunekar/TestAppCreate/': The requested URL returned error: 403
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" push -u origin main
+Username for 'https://github.com': anuppunekar
+Password for 'https://anuppunekar@github.com': 
+Counting objects: 55, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (55/55), 746.81 KiB | 0 bytes/s, done.
+Total 55 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/anuppunekar/TestAppCreate
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+
+D:\downloads\stsProjects\TestAppCreate>"D:\Program Files\Git\bin\git.exe" log                
+commit 612cdd24258c165c28c584315e4106ead7d94af7
+Author: anuppunekar <anup.punekar@gmail.com>
+Date:   Thu Dec 25 19:24:41 2025 +0530
+
+    Created
+
+D:\downloads\stsProjects\TestAppCreate>
