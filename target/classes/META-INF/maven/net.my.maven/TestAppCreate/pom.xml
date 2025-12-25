@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.my.maven</groupId>
+  <artifactId>TestAppCreate</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0</version>
+  <name>TestAppCreate</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+	<!-- hibernate-annotations 3.4.0.GA -->
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-annotations</artifactId>
+		<version>3.4.0.GA</version>
+		<type>jar</type>
+		<scope>compile</scope>
+	</dependency>
+	<!-- hibernate-core 3.3.2.GA -->
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>3.3.2.GA</version>
+		<type>jar</type>
+		<scope>compile</scope>
+	</dependency>
+	<!-- slf4j-api 1.6.1 -->
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>1.6.1</version>
+		<type>jar</type>
+		<scope>compile</scope>
+	</dependency>
+	<!-- slf4j-simple 1.6.1 -->
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-simple</artifactId>
+		<version>1.6.1</version>
+		<type>jar</type>
+		<scope>compile</scope>
+	</dependency>
+	<!-- javassist 3.12.1.GA -->
+	<dependency>
+		<groupId>javassist</groupId>
+		<artifactId>javassist</artifactId>
+		<version>3.12.1.GA</version>
+		<type>jar</type>
+		<scope>compile</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+	<dependency>
+	    <groupId>com.h2database</groupId>
+	    <artifactId>h2</artifactId>
+	    <version>2.4.240</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- mysql-connector-java 5.1.15 -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.15</version>
+		<type>jar</type>
+		<scope>compile</scope>
+	</dependency>
+    
+  </dependencies>
+</project>
